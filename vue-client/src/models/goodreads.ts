@@ -18,6 +18,13 @@ export default class ModelGoodReads extends ModelBase
     /**
      * @type string
      */
+    public get baseUrl() {
+        return 'http://goodreads.mattkenefick.repl.co/';
+    }
+
+    /**
+     * @type string
+     */
     public get endpoint() {
         return 'search';
     }
