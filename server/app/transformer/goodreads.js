@@ -52,6 +52,10 @@ export default class TransformerGoodReads
      * @return object
      */
     getData() {
+        if (!this.root.results || !this.root.results.work) {
+            return {};
+        }
+
         return this.root.results.work.length >= 1
             ? this.root.results.work
             : [this.root.results.work];

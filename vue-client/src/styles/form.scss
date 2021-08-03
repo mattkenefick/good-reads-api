@@ -1,0 +1,55 @@
+
+// Layout
+// ---------------------------------------------------------------------------
+
+a,
+button {
+	cursor: pointer;
+}
+
+form {
+	fieldset.type-search {
+		border: 1px solid #ccc;
+		border-radius: 2rem;
+		height: 60px;
+		padding: 0;
+		position: relative;
+
+		input[type=text] {
+			background-color: transparent;
+			border: 0;
+			height: 100%;
+			font-family: "Libre Baskerville", serif;
+			font-size: 1rem;
+			left: 0;
+			padding: 1rem 1.5rem;
+			position: absolute;
+			outline: none;
+			top: 0;
+			width: 100%;
+		}
+
+		button {
+			background-color: #111;
+			border-radius: 2rem;
+			border: 0;
+			color: #eee;
+			height: 100%;
+			font-size: 1.25rem;
+			position: absolute;
+			right: 0;
+			transform: scale(0.9);
+			transition: transform 0.15s ease-in-out;
+			top: 0;
+			width: 60px;
+
+			&:hover {
+				transform: scale(0.95);
+			}
+
+			&:active {
+				transform: scale(0.95) translate(2px, 2px);
+			}
+		}
+	}
+}
