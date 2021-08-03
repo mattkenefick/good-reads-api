@@ -2,8 +2,47 @@
 <html>
     <head>
         <title>Apollo 13</title>
+
+        <link href="./main.css" rel="stylesheet" />
     </head>
     <body>
-        <h1>hey</h1>
+        <main>
+            <form action="http://localhost:3030/search" method="GET">
+                <fieldset>
+                    <legend>Search</legend>
+
+                    <label>
+                        <h3>Book Title</h3>
+                        <input name="q" placeholder="Enter a book title..." type="text" />
+                    </label>
+
+                    <button type="submit">
+                        Search
+                    </button>
+                </fieldset>
+            </form>
+
+            <section id="Results">
+                <!-- Empty -->
+            </section>
+        </main>
+
+
+        <!-- Templates -->
+        <template id="TemplateBook">
+            <div class="view-book">
+                <figure>
+                    <img src="{{ best_book_image_url }}" height="200" />
+                </figure>
+                <h3>{{ best_book_title }}</h3>
+                <author>
+                    <span>{{ best_book_author_name }}</span>
+                </author>
+            </div>
+        </template>
+
+
+        <!-- Scripts -->
+        <script src="main.js" type="module"></script>
     </body>
 </html>

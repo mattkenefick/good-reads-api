@@ -1,5 +1,6 @@
 
 import Constants from './constants.js';
+import Cors from 'cors';
 import Express from 'express';
 import ApiGoodReads from './api/goodreads.js';
 import TransformerGoodReads from './transformer/goodreads.js';
@@ -11,6 +12,7 @@ const api = new ApiGoodReads(Constants.GOODREADS);
 // ----------------------------------------------------------------------------
 
 const app = Express();
+app.use(Cors());
 
 app.get('/search', async (req, res) => {
     const query = req?.query?.q;
