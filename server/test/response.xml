@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GoodreadsResponse>
+    <Request>
+        <authentication>true</authentication>
+        <key>
+            <![CDATA[RDfV4oPehM6jNhxfNQzzQ]]>
+        </key>
+        <method>
+            <![CDATA[search_index]]>
+        </method>
+    </Request>
+    <search>
+        <query>
+            <![CDATA[Sun Also Rises]]>
+        </query>
+        <results-start>1</results-start>
+        <results-end>20</results-end>
+        <total-results>130</total-results>
+        <source>Goodreads</source>
+        <query-time-seconds>0.06</query-time-seconds>
+        <results>
+            <work>
+                <id type="integer">589497</id>
+                <books_count type="integer">1705</books_count>
+                <ratings_count type="integer">381490</ratings_count>
+                <text_reviews_count type="integer">13848</text_reviews_count>
+                <original_publication_year type="integer">1926</original_publication_year>
+                <original_publication_month type="integer">10</original_publication_month>
+                <original_publication_day type="integer">22</original_publication_day>
+                <average_rating>3.82</average_rating>
+                <best_book type="Book">
+                    <id type="integer">3876</id>
+                    <title>The Sun Also Rises (Fiesta)</title>
+                    <author>
+                        <id type="integer">1455</id>
+                        <name>Ernest Hemingway</name>
+                    </author>
+                    <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1509802323l/3876._SY160_.jpg</image_url>
+                    <small_image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1509802323l/3876._SY75_.jpg</small_image_url>
+                </best_book>
+            </work>
+            <work>
+                <id type="integer">46312935</id>
+                <books_count type="integer">12</books_count>
+                <ratings_count type="integer">1999</ratings_count>
+                <text_reviews_count type="integer">325</text_reviews_count>
+                <original_publication_year type="integer">2016</original_publication_year>
+                <original_publication_month type="integer">6</original_publication_month>
+                <original_publication_day type="integer">7</original_publication_day>
+                <average_rating>3.94</average_rating>
+                <best_book type="Book">
+                    <id type="integer">25897804</id>
+                    <title>Everybody Behaves Badly: The True Story Behind Hemingway’s Masterpiece The Sun Also Rises</title>
+                    <author>
+                        <id type="integer">6075640</id>
+                        <name>Lesley M.M. Blume</name>
+                    </author>
+                    <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1447139177l/25897804._SX98_.jpg</image_url>
+                    <small_image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1447139177l/25897804._SY75_.jpg</small_image_url>
+                </best_book>
+            </work>
+            <work>
+                <id type="integer">7601</id>
+                <books_count type="integer">2</books_count>
+                <ratings_count type="integer">895</ratings_count>
+                <text_reviews_count type="integer">32</text_reviews_count>
+                <original_publication_year type="integer">1983</original_publication_year>
+                <original_publication_month type="integer">3</original_publication_month>
+                <original_publication_day type="integer" nil="true"/>
+                <average_rating>4.10</average_rating>
+                <best_book type="Book">
+                    <id type="integer">3877</id>
+                    <title>The Old Man and the Sea/The Sun Also Rises/A Farewell to Arms/For Whom the Bell Tolls</title>
+                    <author>
+                        <id type="integer">1455</id>
+                        <name>Ernest Hemingway</name>
+                    </author>
+                    <image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+                    <small_image_url>https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png</small_image_url>
+                </best_book>
+            </work>
+            <work>
+                <id type="integer">19927765</id>
+                <books_count type="integer">11</books_count>
+                <ratings_count type="integer">449</ratings_count>
+                <text_reviews_count type="integer">79</text_reviews_count>
+                <original_publication_year type="integer">2012</original_publication_year>
+                <original_publication_month type="integer">1</original_publication_month>
+                <original_publication_day type="integer">1</original_publication_day>
+                <average_rating>3.51</average_rating>
+                <best_book type="Book">
+                    <id type="integer">14288358</id>
+                    <title>A Red Sun Also Rises</title>
+                    <author>
+                        <id type="integer">3222611</id>
+                        <name>Mark Hodder</name>
+                    </author>
+                    <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1358081626l/14288358._SX98_.jpg</image_url>
+                    <small_image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1358081626l/14288358._SX50_.jpg</small_image_url>
+                </best_book>
+            </work>
+            <work>
+                <id type="integer">62491394</id>
+                <books_count type="integer">1</books_count>
+                <ratings_count type="integer">105</ratings_count>
+                <text_reviews_count type="integer">2</text_reviews_count>
+                <original_publication_year type="integer" nil="true"/>
+                <original_publication_month type="integer" nil="true"/>
+                <original_publication_day type="integer" nil="true"/>
+                <average_rating>4.27</average_rating>
+                <best_book type="Book">
+                    <id type="integer">40231605</id>
+                    <title>THE OLD MAN AND THE SEA ERNEST HEMMINGWAY SUMMARY (HEMMINGWAY, THE SUN ALSO RISES, FOR WHOM THE BELL TOLLS Book 1)</title>
+                    <author>
+                        <id type="integer">18008104</id>
+                        <name>DK Hayhurst</name>
+                    </author>
+                    <image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+                    <small_image_url>https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png</small_image_url>
+                </best_book>
+            </work>
+            <work>
+                <id type="integer">41392917</id>
+                <books_count type="integer">2</books_count>
+                <ratings_count type="integer">63</ratings_count>
+                <text_reviews_count type="integer">6</text_reviews_count>
+                <original_publication_year type="integer">2014</original_publication_year>
+                <original_publication_month type="integer">3</original_publication_month>
+                <original_publication_day type="integer">18</original_publication_day>
+                <average_rating>4.06</average_rating>
+                <best_book type="Book">
+                    <id type="integer">22062664</id>
+                    <title>The Collected Works of Ernest Hemingway: A Farewell to Arms, The Sun Also Rises: Nine-Book Bundle</title>
+                    <author>
+                        <id type="integer">1455</id>
+                        <name>Ernest Hemingway</name>
+                    </author>
+                    <image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+                    <small_image_url>https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png</small_image_url>
+                </best_book>
+            </work>
+            <work>
+                <id type="integer">17346692</id>
+                <books_count type="integer">1</books_count>
+                <ratings_count type="integer">112</ratings_count>
+                <text_reviews_count type="integer">0</text_reviews_count>
+                <original_publication_year type="integer">2011</original_publication_year>
+                <original_publication_month type="integer">10</original_publication_month>
+                <original_publication_day type="integer">1</original_publication_day>
+                <average_rating>3.80</average_rating>
+                <best_book type="Book">
+                    <id type="integer">12366493</id>
+                    <title>Hemingway, Fiesta: The Sun Also Rises</title>
+                    <author>
+                        <id type="integer">93114</id>
+                        <name>Marie-Christine Agosto</name>
+                    </author>
+                    <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1338105011l/12366493._SX98_.jpg</image_url>
+                    <small_image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1338105011l/12366493._SX50_.jpg</small_image_url>
+                </best_book>
+            </work>
+            <work>
+                <id type="integer">255982</id>
+                <books_count type="integer">4</books_count>
+                <ratings_count type="integer">70</ratings_count>
+                <text_reviews_count type="integer">3</text_reviews_count>
+                <original_publication_year type="integer">2007</original_publication_year>
+                <original_publication_month type="integer">5</original_publication_month>
+                <original_publication_day type="integer">15</original_publication_day>
+                <average_rating>4.11</average_rating>
+                <best_book type="Book">
+                    <id type="integer">264059</id>
+                    <title>Reading Hemingway's the Sun Also Rises: Glossary and Commentary</title>
+                    <author>
+                        <id type="integer">721493</id>
+                        <name>H.R. Stoneback</name>
+                    </author>
+                    <image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+                    <small_image_url>https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png</small_image_url>
+                </best_book>
+            </work>
+            <work>
+                <id type="integer">62383536</id>
+                <books_count type="integer">1</books_count>
+                <ratings_count type="integer">65</ratings_count>
+                <text_reviews_count type="integer">1</text_reviews_count>
+                <original_publication_year type="integer" nil="true"/>
+                <original_publication_month type="integer" nil="true"/>
+                <original_publication_day type="integer" nil="true"/>
+                <average_rating>4.46</average_rating>
+                <best_book type="Book">
+                    <id type="integer">40195387</id>
+                    <title>SUMMARY: THE SUN ALSO RISES BY ERNEST HEMMINGWAY (THE OLD MAN AND THE SEA, ERNEST HEMMINGWAY, A FAREWELL TO ARMS SUMMARIES Book 1)</title>
+                    <author>
+                        <id type="integer">18008104</id>
+                        <name>DK Hayhurst</name>
+                    </author>
+                    <image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+                    <small_image_url>https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png</small_image_url>
+                </best_book>
+            </work>
+            <work>
+                <id type="integer">315379</id>
+                <books_count type="integer">1</books_count>
+                <ratings_count type="integer">67</ratings_count>
+                <text_reviews_count type="integer">4</text_reviews_count>
+                <original_publication_year type="integer">1985</original_publication_year>
+                <original_publication_month type="integer">5</original_publication_month>
+                <original_publication_day type="integer" nil="true"/>
+                <average_rating>3.64</average_rating>
+                <best_book type="Book">
+                    <id type="integer">324685</id>
+                    <title>Monarch Notes on Hemingway's the Sun Also Rises</title>
+                    <author>
+                        <id type="integer">249927</id>
+                        <name>Monarch Press</name>
+                    </author>
+                    <image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+                    <small_image_url>https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png</small_image_url>
+                </best_book>
+            </work>
+            <work>
+                <id type="integer">7602</id>
+                <books_count type="integer">4</books_count>
+                <ratings_count type="integer">32</ratings_count>
+                <text_reviews_count type="integer">4</text_reviews_count>
+                <original_publication_year type="integer">1988</original_publication_year>
+                <original_publication_month type="integer">7</original_publication_month>
+                <original_publication_day type="integer" nil="true"/>
+                <average_rating>3.91</average_rating>
+                <best_book type="Book">
+                    <id type="integer">3878</id>
+                    <title>The Sun Also Rises: A Novel of the Twenties</title>
+                    <author>
+                        <id type="integer">7050</id>
+                        <name>Michael S. Reynolds</name>
+                    </author>
+                    <image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+                    <small_image_url>https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png</small_image_url>
+                </best_book>
+            </work>
+            <work>
+                <id type="integer">12585536</id>
+                <books_count type="integer">1</books_count>
+                <ratings_count type="integer">34</ratings_count>
+                <text_reviews_count type="integer">2</text_reviews_count>
+                <original_publication_year type="integer">1984</original_publication_year>
+                <original_publication_month type="integer">10</original_publication_month>
+                <original_publication_day type="integer" nil="true"/>
+                <average_rating>4.15</average_rating>
+                <best_book type="Book">
+                    <id type="integer">73296</id>
+                    <title>Ernest Hemingway's the Sun Also Rises</title>
+                    <author>
+                        <id type="integer">21040179</id>
+                        <name>Robert Dunn</name>
+                    </author>
+                    <image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+                    <small_image_url>https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png</small_image_url>
+                </best_book>
+            </work>
+            <work>
+                <id type="integer">17522030</id>
+                <books_count type="integer">1</books_count>
+                <ratings_count type="integer">28</ratings_count>
+                <text_reviews_count type="integer">6</text_reviews_count>
+                <original_publication_year type="integer">2011</original_publication_year>
+                <original_publication_month type="integer">8</original_publication_month>
+                <original_publication_day type="integer">20</original_publication_day>
+                <average_rating>4.32</average_rating>
+                <best_book type="Book">
+                    <id type="integer">12535274</id>
+                    <title>Articles on Books by Ernest Hemingway, Including: A Farewell to Arms, for Whom the Bell Tolls, the Old Man and the Sea, a Moveable Feast, the Sun Also Rises, the Dangerous Summer, Death in the Afternoon, to Have and Have Not</title>
+                    <author>
+                        <id type="integer">5167894</id>
+                        <name>Hephaestus Books</name>
+                    </author>
+                    <image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+                    <small_image_url>https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png</small_image_url>
+                </best_book>
+            </work>
+            <work>
+                <id type="integer">75947130</id>
+                <books_count type="integer">1</books_count>
+                <ratings_count type="integer">25</ratings_count>
+                <text_reviews_count type="integer">4</text_reviews_count>
+                <original_publication_year type="integer" nil="true"/>
+                <original_publication_month type="integer" nil="true"/>
+                <original_publication_day type="integer" nil="true"/>
+                <average_rating>4.48</average_rating>
+                <best_book type="Book">
+                    <id type="integer">51169886</id>
+                    <title>Ernest Hemingway: The Sun Also Rises &amp; Other Writings 1918-1926</title>
+                    <author>
+                        <id type="integer">1455</id>
+                        <name>Ernest Hemingway</name>
+                    </author>
+                    <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1581418267l/51169886._SX98_.jpg</image_url>
+                    <small_image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1581418267l/51169886._SY75_.jpg</small_image_url>
+                </best_book>
+            </work>
+            <work>
+                <id type="integer">45675108</id>
+                <books_count type="integer">2</books_count>
+                <ratings_count type="integer">22</ratings_count>
+                <text_reviews_count type="integer">6</text_reviews_count>
+                <original_publication_year type="integer">2014</original_publication_year>
+                <original_publication_month type="integer">10</original_publication_month>
+                <original_publication_day type="integer">7</original_publication_day>
+                <average_rating>3.82</average_rating>
+                <best_book type="Book">
+                    <id type="integer">25818245</id>
+                    <title>The Sun Also Rises / The Old Man And The Sea</title>
+                    <author>
+                        <id type="integer">1455</id>
+                        <name>Ernest Hemingway</name>
+                    </author>
+                    <image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+                    <small_image_url>https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png</small_image_url>
+                </best_book>
+            </work>
+            <work>
+                <id type="integer">41969582</id>
+                <books_count type="integer">9</books_count>
+                <ratings_count type="integer">86</ratings_count>
+                <text_reviews_count type="integer">14</text_reviews_count>
+                <original_publication_year type="integer">1995</original_publication_year>
+                <original_publication_month type="integer" nil="true"/>
+                <original_publication_day type="integer" nil="true"/>
+                <average_rating>3.35</average_rating>
+                <best_book type="Book">
+                    <id type="integer">4015</id>
+                    <title>Ernest Hemingway's the Sun Also Rises (Bloom's Modern Critical Interpretations)</title>
+                    <author>
+                        <id type="integer">236</id>
+                        <name>Harold Bloom</name>
+                    </author>
+                    <image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+                    <small_image_url>https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png</small_image_url>
+                </best_book>
+            </work>
+            <work>
+                <id type="integer">41912</id>
+                <books_count type="integer">4</books_count>
+                <ratings_count type="integer">14</ratings_count>
+                <text_reviews_count type="integer">3</text_reviews_count>
+                <original_publication_year type="integer">1964</original_publication_year>
+                <original_publication_month type="integer">6</original_publication_month>
+                <original_publication_day type="integer">3</original_publication_day>
+                <average_rating>3.50</average_rating>
+                <best_book type="Book">
+                    <id type="integer">42429</id>
+                    <title>Cliffs Notes on Hemingway's The Sun Also Rises</title>
+                    <author>
+                        <id type="integer">7589545</id>
+                        <name>Gary K. Carey</name>
+                    </author>
+                    <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1360056421l/42429._SX98_.jpg</image_url>
+                    <small_image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1360056421l/42429._SY75_.jpg</small_image_url>
+                </best_book>
+            </work>
+            <work>
+                <id type="integer">482728</id>
+                <books_count type="integer">1</books_count>
+                <ratings_count type="integer">23</ratings_count>
+                <text_reviews_count type="integer">2</text_reviews_count>
+                <original_publication_year type="integer">2007</original_publication_year>
+                <original_publication_month type="integer">1</original_publication_month>
+                <original_publication_day type="integer">15</original_publication_day>
+                <average_rating>3.87</average_rating>
+                <best_book type="Book">
+                    <id type="integer">494571</id>
+                    <title>Ernest Hemingway: The Sun Also Rises and Other Works</title>
+                    <author>
+                        <id type="integer">70660</id>
+                        <name>Kevin A. Boon</name>
+                    </author>
+                    <image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+                    <small_image_url>https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png</small_image_url>
+                </best_book>
+            </work>
+            <work>
+                <id type="integer">5960121</id>
+                <books_count type="integer">1</books_count>
+                <ratings_count type="integer">11</ratings_count>
+                <text_reviews_count type="integer">2</text_reviews_count>
+                <original_publication_year type="integer">1926</original_publication_year>
+                <original_publication_month type="integer" nil="true"/>
+                <original_publication_day type="integer" nil="true"/>
+                <average_rating>3.91</average_rating>
+                <best_book type="Book">
+                    <id type="integer">2312009</id>
+                    <title>The Sun Also Rises, the Snows of Kilimanjaro and Other Works (Coles Notes)</title>
+                    <author>
+                        <id type="integer">1195316</id>
+                        <name>Coles Notes</name>
+                    </author>
+                    <image_url>https://s.gr-assets.com/assets/nophoto/book/111x148-bcc042a9c91a29c1d680899eff700a03.png</image_url>
+                    <small_image_url>https://s.gr-assets.com/assets/nophoto/book/50x75-a91bf249278a81aabab721ef782c4a74.png</small_image_url>
+                </best_book>
+            </work>
+            <work>
+                <id type="integer">1644531</id>
+                <books_count type="integer">4</books_count>
+                <ratings_count type="integer">19</ratings_count>
+                <text_reviews_count type="integer">5</text_reviews_count>
+                <original_publication_year type="integer">1987</original_publication_year>
+                <original_publication_month type="integer">6</original_publication_month>
+                <original_publication_day type="integer">26</original_publication_day>
+                <average_rating>3.63</average_rating>
+                <best_book type="Book">
+                    <id type="integer">358185</id>
+                    <title>New Essays on the Sun Also Rises</title>
+                    <author>
+                        <id type="integer">5651083</id>
+                        <name>Martin Linda Wagner</name>
+                    </author>
+                    <image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1400866241l/358185._SX98_.jpg</image_url>
+                    <small_image_url>https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1400866241l/358185._SX50_.jpg</small_image_url>
+                </best_book>
+            </work>
+        </results>
+    </search>
+</GoodreadsResponse>
