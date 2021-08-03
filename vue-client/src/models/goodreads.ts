@@ -19,7 +19,7 @@ export default class ModelGoodReads extends ModelBase
      * @type string
      */
     public get baseUrl() {
-        return 'http://goodreads.mattkenefick.repl.co/';
+        return location.protocol + '//goodreads.mattkenefick.repl.co/';
     }
 
     /**
