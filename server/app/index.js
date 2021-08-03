@@ -2,23 +2,32 @@
 import Constants from './constants.js';
 import Express from 'express';
 import ApiGoodReads from './api/goodreads.js';
+import TransformerGoodReads from './transformer/goodreads.js';
 
 const api = new ApiGoodReads(Constants.GOODREADS);
-let result;
-
-result = await api.search('Sun also rises');
-console.log(result);
 
 
 // Create application
 // ----------------------------------------------------------------------------
 
-// const app = Express();
+const app = Express();
 
-// app.get('/', (req, res) => {
-// 	res.send('Hello Express app!')
-// });
+app.get('/search', async (req, res) => {
+    const query = req?.query?.q;
+    const page = req?.query?.page;
+    const limit = 20;
+    let result;
+    let envelope;
 
-// app.listen(3000, () => {
-// 	console.log('server started');
-// });
+    // Retrieve results from GoodReads
+    result = await api.search(query, page);
+
+    // Convert to returnable envelope
+    envelope = new TransformerGoodReads(result).envelope;
+
+    res.send(envelope);
+});
+
+app.listen(3030, () => {
+	console.log('Server started @ 3030');
+});

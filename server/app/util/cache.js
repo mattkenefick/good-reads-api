@@ -1,4 +1,11 @@
 
+/**
+ * Generic caching class that works on with basic key/values.
+ * It's used to represent how we'd save API calls in the
+ * future by hanging on to recently resolved data.
+ *
+ * @author Matt Kenefick <matt@polymermallard.com
+ */
 export default class Cache
 {
     /**

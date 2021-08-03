@@ -1,6 +1,15 @@
 
 import xml2js from 'xml2js';
 
+/**
+ * This parser class will handle XML from the server
+ * and implements an imaginary IParser class. We have
+ * designed this in such a way that we could create
+ * other types of parsers but are limiting it to XML
+ * for the scope of this test.
+ *
+ * @author Matt Kenefick <matt@polymermallard.com
+ */
 export default class ParserXml // implements IParser
 {
     /**
@@ -23,7 +32,12 @@ export default class ParserXml // implements IParser
         // this.parsed = dom.documentElement;
 
         return new Promise((resolve, reject) => {
-            xml2js.parseString(this.xmlStr, function (err, result) {
+            const options = {
+                explicitArray: false,
+                ignoreAttrs: true,
+                mergeAttrs: true
+            };
+            xml2js.parseString(this.xmlStr, options, function (err, result) {
                 resolve(result);
             });
         });

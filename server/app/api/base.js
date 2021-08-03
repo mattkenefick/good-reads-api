@@ -3,6 +3,13 @@ import https from 'https';
 import UtilCache from '../util/cache.js';
 import ParserXml from '../parser/xml.js';
 
+/**
+ * General base API class that our other objects can
+ * extend. It provides basic functionality for
+ * configuring, fetching, and parsing remote data.
+ *
+ * @author Matt Kenefick <matt@polymermallard.com
+ */
 export default class ApiBase
 {
     /**
@@ -49,7 +56,6 @@ export default class ApiBase
 
         const url = this.getUrl(endpoint, queryParameters);
         const response = await this.request(url);
-
         const parsed = await this.parser.set(response).parse();
 
         return parsed;
@@ -104,6 +110,8 @@ export default class ApiBase
     }
 
     /**
+     * Returns query params object as search string
+     *
      * @param object queryParameters
      * @return string
      */
@@ -114,6 +122,8 @@ export default class ApiBase
     }
 
     /**
+     * Gets a full URL as string including host, path, and query params
+     *
      * @param string endpoint
      * @param object queryParameters
      * @return string

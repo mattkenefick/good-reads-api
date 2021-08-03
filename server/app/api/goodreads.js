@@ -1,6 +1,13 @@
 
 import ApiBase from './base.js';
 
+/**
+ * API class for GoodReads resource. Only handles
+ * searching books right now, but could easily be
+ * expanded to do more.
+ *
+ * @author Matt Kenefick <matt@polymermallard.com
+ */
 export default class ApiGoodReads extends ApiBase
 {
     /**
@@ -38,16 +45,13 @@ export default class ApiGoodReads extends ApiBase
     }
 
     /**
-     * Shorthand for searching books
+     * Shorthand for searching for books
      *
      * @param string query
      * @param string page
      * @return Promise<T>
      */
     search(q, page = '1') {
-        return this.fetch(this.endpoint, {
-            q,
-            page,
-        });
+        return this.fetch(this.endpoint, { q, page });
     }
 }
