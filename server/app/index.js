@@ -15,9 +15,7 @@ const app = Express();
 app.get('/search', async (req, res) => {
     const query = req?.query?.q;
     const page = req?.query?.page;
-    const limit = 20;
-    let result;
-    let envelope;
+    let envelope, result;
 
     // Retrieve results from GoodReads
     result = await api.search(query, page);
