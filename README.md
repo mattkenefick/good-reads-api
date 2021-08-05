@@ -23,4 +23,6 @@ The `vue-client` folder contains code being used on `https://good-reads.polymerm
 
 This was the first example using completely raw tech that was specifically designed to be simple enough for CodePen. You can see it working here: https://codepen.io/mattkenefick/pen/bGWmpWZ  I ended up abandoning the Vanilla Client in favor of a more structured approach using Vue + TypeScript. The vanilla clinet was stripped down to the essentials.
 
+This example uses `<template>` just for source, but in a proper vanilla example, I'd probably use some implementation of ShadowDOM as I've written about here: https://medium.com/@mattkenefick/snippets-in-javascript-converting-pascalcase-to-kebab-case-426c80672abc
+
 Remember that in the code here, you may find `localhost:3030` for the server, which you could swap out with the REPL.IT URL.
